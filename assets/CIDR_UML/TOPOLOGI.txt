@@ -15,6 +15,7 @@ uml_switch -unix switch21 > /dev/null < /dev/null &
 uml_switch -unix switch22 > /dev/null < /dev/null &
 uml_switch -unix switch25 > /dev/null < /dev/null &
 
+
 # Router
 # NID TUNTAP 10.151.78.28/30    NID DMZ 10.151.79.56/29
 # IP_tuntap_tiap_kelompok = NID_tuntap_tiap_kelompok + 1 = 10.151.78.29
@@ -43,3 +44,7 @@ xterm -T JOMBANG -e linux ubd0=JOMBANG,jarkom umid=JOMBANG eth0=daemon,,,switch2
 xterm -T BOJONEGORO -e linux ubd0=BOJONEGORO,jarkom umid=BOJONEGORO eth0=daemon,,,switch25 mem=64M &
 xterm -T NGANJUK -e linux ubd0=NGANJUK,jarkom umid=NGANJUK eth0=daemon,,,switch21 mem=64M &
 xterm -T LUMAJANG -e linux ubd0=LUMAJANG,jarkom umid=LUMAJANG eth0=daemon,,,switch17 mem=64M &
+xterm -T TULUNGAGUNG -e linux ubd0=TULUNGAGUNG,jarkom umid=TULUNGAGUNG eth0=daemon,,,switch20 mem=64M &
+
+
+
