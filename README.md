@@ -156,3 +156,7 @@ Kemudian buat lah tree untuk menentukan pembagian ip. Tree yang dihasilkan seper
 Setelah itu dari tree bisa diubah menjadi tabel seperti berikut agar memuahkan pembagian ip
 
 ![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM_Pembagian.png)
+
+Setelah itu mengatur subnetting pada tiap device pada cisco sesuai pembagian IP. Untuk melihat pengaturan setiap device bisa dilihat di [file pkt]([https://link](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM.pkt)) pada setiap device di bagian config->interfaces.
+
+Setelah itu menambahkan routing pada setiap router.
