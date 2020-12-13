@@ -27,7 +27,7 @@ Jangan lupa membagi IP untuk server juga.
 
 Sehingga terapat tree seperti berikut.
 
-![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/CIDR_UML/TreeCIDR.png)
+![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/CIDR_UML/TreeCIDR.PNG)
 
 
 Dari tree tersebut bisa dilakukan perhitungan untuk setiap subnet nya menjadi seperti berikut
@@ -38,7 +38,7 @@ Setelah itu buat uml nya.
 
 Karena topologi pada uml perlu penyesuaian switch maka dibuat topologi seperti berikut
 
-![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/CIDR_UML/TOPOLOGI.png)
+![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/CIDR_UML/TOPOLOGI.PNG)
 
 
 
