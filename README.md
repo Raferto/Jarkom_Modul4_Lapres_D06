@@ -157,6 +157,47 @@ Setelah itu dari tree bisa diubah menjadi tabel seperti berikut agar memuahkan p
 
 ![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM_Pembagian.png)
 
-Setelah itu mengatur subnetting pada tiap device pada cisco sesuai pembagian IP. Untuk melihat pengaturan setiap device bisa dilihat di [file pkt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM.pkt) pada setiap device di bagian config->interfaces.
+Setelah itu mengatur subnetting pada tiap device pada cisco sesuai pembagian IP, yang dimana setiap IP address diisi sesuai dengan IP pada range subnetnya masing-masing. Untuk melihat pengaturan setiap device bisa dilihat di [file pkt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM.pkt) pada setiap device di bagian config -> interfaces.
 
-Setelah itu menambahkan routing pada setiap router.
+Setelah itu menambahkan routing pada setiap router, sebagai berikut:
+
+```
+Surabaya
+Network 192.168.24.0 Netmask 255.255.252.0 Next Hop 192.168.0.10
+Network 192.168.0.12 Netmask 255.255.255.252 Next Hop 192.168.0.10
+Network 192.168.8.0 Netmask 255.255.248.0 Next Hop 192.168.0.10
+Network 192.168.0.128 Netmask 255.255.255.128 Next Hop 192.168.0.10
+Network 192.168.16.0 Netmask 255.255.252.0 Next Hop 192.168.0.6
+Network 192.168.1.0 Netmask 255.255.255.0 Next Hop 192.168.0.6
+Network 192.168.0.16 Netmask 255.255.255.240 Next Hop 192.168.0.6
+Network 192.168.0.0 Netmask 255.255.255.252 Next Hop 192.168.0.6
+Network 192.168.20.0 Netmask 255.255.252.0 Next Hop 192.168.0.6
+Network 192.168.2.0 Netmask 255.255.254.0 Next Hop 192.168.0.6
+Network 10.151.79.60 Netmask 255.255.255.252 Next Hop 192.168.0.6
+
+Pasuruan
+Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.0.9
+Network 192.168.8.0 Netmask 255.255.248.0 Next Hop 192.168.0.14
+Network 192.168.0.128 Netmask 255.255.255.128 Next Hop 192.168.0.14
+
+Probolinggo
+Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.0.13
+
+Batu
+Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.0.5
+Network 192.168.0.16 Netmask 255.255.255.240 Next Hop 192.168.2.2
+Network 192.168.16.0 Netmask 255.255.252.0 Next Hop 192.168.0.2
+Network 192.168.1.0 Netmask 255.255.255.0 Next Hop 192.168.0.2
+Network 10.151.79.60 Netmask 255.255.255.252 Next Hop 192.168.0.2
+
+Madiun
+Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.2.1
+
+Kediri
+Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.0.1
+Network 192.168.16.0 Netmask 255.255.252.0 Next Hop 192.168.1.2
+
+
+Blitar
+Network 0.0.0.0 Netmask 0.0.0.0 Next Hop 192.168.1.1
+```
