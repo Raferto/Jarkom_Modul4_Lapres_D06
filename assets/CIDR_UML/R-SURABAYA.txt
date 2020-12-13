@@ -1,0 +1,33 @@
+# Cloud
+auto eth0
+iface eth0 inet static
+address 10.151.78.30
+netmask 255.255.255.252
+gateway 10.151.78.29
+
+# Switch1
+auto eth1
+iface eth1 inet static
+address 192.168.64.1
+netmask 255.255.252.0
+
+
+# Switch03
+auto eth2
+iface eth2 inet static
+address 192.168.192.1
+netmask 255.255.255.252
+
+
+# Switch01
+auto eth3
+iface eth3 inet static
+address 192.168.32.1
+netmask 255.255.255.252
+
+
+# Switch13
+auto eth4
+iface eth4 inet static
+address 10.151.79.57
+netmask 255.255.255.252

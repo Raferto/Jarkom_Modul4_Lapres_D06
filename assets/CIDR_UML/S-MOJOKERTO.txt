@@ -1,0 +1,6 @@
+#switch18
+auto eth0
+iface eth0 inet static
+address 10.151.79.58
+netmask 255.255.255.252
+gateway 10.151.79.57

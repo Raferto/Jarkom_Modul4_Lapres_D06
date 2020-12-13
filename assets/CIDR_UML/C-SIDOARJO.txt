@@ -1,0 +1,6 @@
+# Switch19
+auto eth0
+iface eth0 inet static
+address 192.168.160.2
+netmask 255.255.252.0
+gateway 192.168.160.1
