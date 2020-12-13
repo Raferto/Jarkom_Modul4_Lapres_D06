@@ -93,7 +93,7 @@ xterm -T TULUNGAGUNG -e linux ubd0=TULUNGAGUNG,jarkom umid=TULUNGAGUNG eth0=daem
 
 ```
 
-Kemudian setting networking interface pada tiap uml berdasarkan pembagian ip hasil subnetting sebelumya. Pada modul ini kita pada tiap uml ditambahkan pengaturan interface seperti [berikut]([https://link](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/tree/main/assets/CIDR_UML))
+Kemudian setting networking interface pada tiap uml berdasarkan pembagian ip hasil subnetting sebelumya. Pada modul ini kita pada tiap uml ditambahkan pengaturan interface seperti [berikut](https://link](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/tree/main/assets/CIDR_UML)
 
 
 Ikuti juga langkah langkah pada modul uml.
@@ -138,4 +138,21 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.168.4.1
 ```
 
 
-## VLSM Pada UML
+## VLSM Pada CPT
+
+Pertama lakukan subnetting sehingga di dapat
+
+![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/TOPO_VLSM.png)
+
+Kemudian hitung kebutuhan setiap subnet dan tentukan type nya seperti berikut
+
+![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM_Kebutuhan.png)
+
+
+Kemudian buat lah tree untuk menentukan pembagian ip. Tree yang dihasilkan seperti berikut/
+
+![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM_TREE.png)
+
+Setelah itu dari tree bisa diubah menjadi tabel seperti berikut agar memuahkan pembagian ip
+
+![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/VLSM_CPT/VLSM_Pembagian.png)
