@@ -21,6 +21,8 @@ Sehingga di dapat seperti berikut
 
 ![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/CIDR_UML/CIDR6.png)
 
+![alt](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/blob/main/assets/CIDR_UML/CIDR7.png)
+
 
 Kemudian buat lah tree untuk membagi ip yang ada.
 Jangan lupa membagi IP untuk server juga.
