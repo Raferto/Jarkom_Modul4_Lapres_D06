@@ -93,7 +93,7 @@ xterm -T TULUNGAGUNG -e linux ubd0=TULUNGAGUNG,jarkom umid=TULUNGAGUNG eth0=daem
 
 ```
 
-Kemudian setting networking interface pada tiap uml berdasarkan pembagian ip hasil subnetting sebelumya. Pada modul ini kita pada tiap uml ditambahkan pengaturan interface seperti [berikut](https://link](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/tree/main/assets/CIDR_UML)
+Kemudian setting networking interface pada tiap uml berdasarkan pembagian ip hasil subnetting sebelumya. Pada modul ini kita pada tiap uml ditambahkan pengaturan interface seperti [berikut](https://github.com/Raferto/Jarkom_Modul4_Lapres_D06/tree/main/assets/CIDR_UML)
 
 
 Ikuti juga langkah langkah pada modul uml.
